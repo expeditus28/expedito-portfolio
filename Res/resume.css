@@ -1,0 +1,277 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+body {
+  /* background-color: black;
+  color: white; */
+  font-size: 25px;
+  color: grey;
+  /* padding-bottom: 2000px; */
+}
+
+div {
+  font-family: Hanken Grostek, Helvetica, Arial;
+}
+
+#download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 1300px;
+  margin: auto;
+  /* border: black 2px solid; */
+}
+
+#download button {
+  padding: 20px 50px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color:#098b6f;
+  border-radius: 10px;
+  font-size: 1em;
+  transition: box-shadow .3s ease;
+}
+
+#download button:hover {
+  box-shadow: 0 1px 40px 1px rgba(134, 134, 134, 0.3);
+}
+
+main {
+  margin: auto;
+  width: 1300px;
+  box-shadow: 0px 0px 25px rgb(170, 169, 169);
+  /* border: black 2px solid; */
+}
+
+h3 {
+  font-family: Hanken Grostek, Helvetica, Arial;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+/* HEADER */
+#header {
+
+}
+
+.header {
+  display: flex;
+  margin: auto;
+  /* border: black 1px solid; */
+  width: 1080px;
+  height: 200px;
+  align-items: center;
+  padding: 30px 100px 0 100px;
+}
+
+.left-header {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  align-items: center;
+  height: 100%;
+}
+
+.initial {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.initial button {
+  background-color: #057058;
+  height:170px;
+  width: 170px;
+  border: none;
+  border-radius: 50%;
+  color: grey;
+  font-size: 50px;
+  cursor: pointer;
+  transition: transform .25s, box-shadow .25s, text-shadow .25s, color .25s;
+}
+
+.initial a {
+  text-decoration: none;
+  color: grey;
+  cursor: pointer;
+  transition: transform .25s, box-shadow .25s, text-shadow .25s, color .25s;
+}
+
+.initial a:hover{
+  
+  text-shadow: 0 0 50px white;
+  color: rgb(217, 217, 217);
+}
+
+.initial button:hover {
+  transform: scale(1.05);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  vertical-align: top;
+  height: 100%;
+}
+
+.name, .position {
+  flex: 1;
+  color: grey;
+}
+
+.name {
+  font-size: 60px;  
+  line-height: 55px;;
+}
+
+.position {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.right-header {
+  flex: 1;
+  justify-content: end;
+  margin-right: -300px;
+}
+
+.info-contact {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+}
+
+.info-contact img {
+  margin-bottom: 5px;
+}
+
+.contact {
+  margin-left: 10px;
+
+}
+
+hr {
+  margin: auto;
+  width: 1000px;
+  height: 3px;
+  border: none;
+  background-color: #098b6f;
+}
+
+/* SECTION */
+/* OBJECTIVE */
+span {
+  font-weight: 700;
+}
+
+section {
+  margin: 50px auto;
+  width: 1000px;
+}
+
+.objective {
+  width: 1080px;
+  justify-content: center;
+}
+
+strong .p {
+  font-weight: 200;
+}
+
+/* QUALI-EDU */
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color:#057058;
+}
+.quali-edu, .lang-traincert {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.quali, .lang, .train-cert {
+  margin-bottom: 15px;
+}
+
+/* REFERENCES */
+#references {
+  margin-top: 10px;
+  height: 340px;
+  /* border: black 2px solid; */
+}
+
+#references div {
+  font-size: 25px;
+}
+
+.references {
+  text-align: center;
+}
+
+.people {
+  height: 150px;
+  /* border: black 2px solid; */
+}
+.container-person {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.person {
+  justify-content: center;
+  text-align: center;
+}
+
+.profile {
+  margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color:#057058;
+  margin: auto;
+  align-items: center;
+  box-shadow: 0 5px 25px grey;
+}
+
+.name {
+  margin-top: 15px;
+}
+
+.cp {
+  margin-top: 5px;
+  font-size: 100px;
+}
+
+
+/* FOOTER */
+#footer {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.qr, .social {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+}
+
+.qr img {
+  height: 150px;
+}
+
+#footer h3 {
+  margin-top: -1px;
+}
